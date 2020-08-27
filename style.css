@@ -6,6 +6,7 @@ body{
 
 main{
     padding: 40px;
+    font-size: 18px;
 }
 
 #caption, #author_pic{
@@ -16,6 +17,7 @@ main{
 #caption{
     padding-left: 20px;
     text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.5);
 }
 
 #writer-img{
@@ -23,8 +25,10 @@ main{
     height: 50px;
 }
 
-.shadow{
+#subheading{
     color: rgba(255, 255, 255, 0.5);
+    border-bottom: solid 1px;
+    padding-bottom: 30px;
 }
 
 h1{
