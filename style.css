@@ -2,9 +2,11 @@ body{
     background: linear-gradient(-45deg, #35577D, #141E30);
     color: #ffffff;
     font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
-main{
+#content{
     padding: 40px;
     font-size: 18px;
 }
@@ -38,4 +40,17 @@ h1{
 
 #author{
     margin-bottom: 60px;
+}
+
+#field_pic{
+    background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-2/soccer.jpeg");
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+}
+
+#field_pic p{
+    background-color: #ffffff;
+    opacity: 0.5;
+    color: #000000;
 }
