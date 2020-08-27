@@ -51,6 +51,34 @@ h1{
 
 #field_pic p{
     background-color: #ffffff;
-    opacity: 0.5;
+    opacity: 0.65;
     color: #000000;
+    padding: 10px;
+    display: block;
+    top: 80%;
+    width: 60%;
+    position: relative;
+    margin-left: 30px;
+    line-height: 14px;
 }
+/*  - find out unknown properties
+    - make notes about all new properties and elements
+    - publish on github pages
+/*
+.caption {
+    display: block;
+    font-family: 'Playfair Display', serif;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 14px;
+    margin-left: 20px;
+    padding: 10px;
+    position: relative;
+    top: 80%;
+    width: 60%;
+    background-color: #ffffff;
+    color: #000000;
+    opacity: 0.75;
+  }
+  */
+  
