@@ -1,0 +1,24 @@
+body{
+    background: linear-gradient(-45deg, #35577D, #141E30);
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+}
+
+main{
+    padding: 40px;
+}
+
+#caption, #author_pic{
+    float: left;
+    text-align: center;
+}
+
+#caption{
+    padding-left: 20px;
+    text-transform: uppercase;
+}
+
+#writer-img{
+    box-shadow: 5px 0px 5px 0px rgba(0, 0, 50, 0.5);
+    height: 50px;
+}
